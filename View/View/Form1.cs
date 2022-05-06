@@ -30,6 +30,7 @@ namespace View
         //удаление объекта из списка и datagridview
         private void button2_Click(object sender, EventArgs e)
         {
+            //итерация по каждой выделенной строке таблицы
             foreach (DataGridViewRow row in dgv.SelectedRows)
             {
                 dgv.Rows.RemoveAt(row.Index);
@@ -56,10 +57,13 @@ namespace View
                 saveFileDialog1.FilterIndex = 2;
                 saveFileDialog1.RestoreDirectory = true;
 
+                //если выбрали файл
                 if (saveFileDialog1.ShowDialog() == DialogResult.OK)
                 {
+                    //открываем его
                     if ((myStream = saveFileDialog1.OpenFile()) != null)
                     {
+                        //пишем
                         formatter.Serialize(myStream, lst);
                         MessageBox.Show("Данные были успешно cохранены в файл " +
                             Path.GetFileName(saveFileDialog1.FileName));
@@ -90,8 +94,10 @@ namespace View
                     openFileDialog.FilterIndex = 2;
                     openFileDialog.RestoreDirectory = true;
 
+                    //выбрали файл
                     if (openFileDialog.ShowDialog() == DialogResult.OK)
                     {
+                        //читаем из него
                         filePath = openFileDialog.FileName;
                         var fileStream = openFileDialog.OpenFile();
                         lst = (BindingList<Base>)formatter.Deserialize(fileStream);

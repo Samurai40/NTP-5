@@ -23,12 +23,14 @@ namespace View
             {
                 double price = double.Parse(textBox1.Text.Replace(".", ","));
                 double discount = double.Parse(textBox2.Text.Replace(".", ","));
+                //выбрана процентная скидка
                 if (radioButton1.Checked)
                 {
                     lst.Add(new Percent(price, discount));
                 }
                 else
                 {
+                    //иначе по сертификату
                     lst.Add(new Certificate(price, discount));
                 }
                 Close();
