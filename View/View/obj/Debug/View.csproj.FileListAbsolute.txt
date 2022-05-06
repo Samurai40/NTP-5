@@ -1,0 +1,15 @@
+C:\VS19\NTP5\лр2\View\View\bin\Debug\View.exe.config
+C:\VS19\NTP5\лр2\View\View\bin\Debug\View.exe
+C:\VS19\NTP5\лр2\View\View\bin\Debug\View.pdb
+C:\VS19\NTP5\лр2\View\View\bin\Debug\Model.dll
+C:\VS19\NTP5\лр2\View\View\bin\Debug\Model.pdb
+C:\VS19\NTP5\лр2\View\View\obj\Debug\View.csprojAssemblyReference.cache
+C:\VS19\NTP5\лр2\View\View\obj\Debug\View.AddForm.resources
+C:\VS19\NTP5\лр2\View\View\obj\Debug\View.FindForm.resources
+C:\VS19\NTP5\лр2\View\View\obj\Debug\View.Form1.resources
+C:\VS19\NTP5\лр2\View\View\obj\Debug\View.Properties.Resources.resources
+C:\VS19\NTP5\лр2\View\View\obj\Debug\View.csproj.GenerateResource.cache
+C:\VS19\NTP5\лр2\View\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+C:\VS19\NTP5\лр2\View\View\obj\Debug\View.csproj.CopyComplete
+C:\VS19\NTP5\лр2\View\View\obj\Debug\View.exe
+C:\VS19\NTP5\лр2\View\View\obj\Debug\View.pdb
