@@ -32,6 +32,7 @@ namespace View
                 double price = double.Parse(textBox1.Text.Replace(".", ","));
                 for (int i = 0; i < lst.Count; i++)
                 {
+                    //если разница по модулю меньше заданной точности
                     if (Math.Abs(lst[i].Price - price) < eps)
                     {
                         listBox1.Items.Add(lst[i] +
@@ -86,6 +87,7 @@ namespace View
                 }
                 for (int i = 0; i < lst.Count; i++)
                 {
+                    //тут сразу для двух полей проверяем
                     if (Math.Abs(lst[i].Price - price) < eps &&
                         Math.Abs(lst[i].Discount - discount) < eps)
                     {
